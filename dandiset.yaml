@@ -2,15 +2,20 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000730
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about:
+- identifier: 2photon data
+  name: hippocampus-slices
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: KP
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Platholi, Jimcy (2023) Testing sharing and upload (Version draft) [Data
-  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Platholi, Jimcy (2023) General data test (Version draft) [Data set]. DANDI
+  archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: jip2003@med.cornell.edu
@@ -20,30 +25,45 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-12-11T20:15:55.140295+00:00'
-datePublished: '2023-12-11T20:16:41.716755+00:00'
-description: testing sharing with users and upload of data
+datePublished: '2023-12-21T15:57:15.361190+00:00'
+description: Initial batch of data (combined approaches)
 doi: 10.80507/dandi.123456/0.123456.1234
+ethicsApproval: []
 id: DANDI:000730/draft
 identifier: DANDI:000730
+keywords:
+- general
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000730/versions/draft/assets/
-name: Testing sharing and upload
+name: General data test
+protocol:
+- 2015-0023
 publishedBy:
-  endDate: '2023-12-11T20:16:41.716755+00:00'
-  id: urn:uuid:29295360-dc36-4305-857c-5db6129a048a
+  endDate: '2023-12-21T15:57:15.361190+00:00'
+  id: urn:uuid:3cac9245-7d37-4db7-b268-f420c10ef620
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-11T20:16:41.716755+00:00'
+  startDate: '2023-12-21T15:57:15.361190+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:9aafc14d-6562-4535-a1a7-8cb255f8fa14
+  - id: urn:uuid:88dd53b6-8d26-4e6c-bb5d-5993abad87db
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget:
+- plasticity
 url: https://dandiarchive.org/dandiset/000730/draft
 version: draft
+wasGeneratedBy:
+- description: bdnf release in mft
+  name: BDNF
+  schemaKey: Project
+  startDate: '2020-01-01T12:30:00-05:00'
+  used: []
+  wasAssociatedWith: []
